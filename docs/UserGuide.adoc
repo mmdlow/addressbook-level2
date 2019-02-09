@@ -91,6 +91,21 @@ Returns `John Doe` but not `john`.
 * `find Betsy Tim John` +
 Returns Any person having names `Betsy`, `Tim`, or `John`.
 
+== Finding all persons whose tags match any keyword: `findtag`
+
+Finds persons whose tags contain any of the given keywords. +
+Format: `findtag KEYWORD [MORE_KEYWORDS]`
+
+[NOTE]
+====
+Same case-sensitivity rules in `find` command also apply here.
+====
+
+Examples:
+
+* `findtag criminal` +
+Returns `Betsy Crowe`.
+
 == Deleting a person : `delete`
 
 Deletes the specified person from the address book. Irreversible. +
