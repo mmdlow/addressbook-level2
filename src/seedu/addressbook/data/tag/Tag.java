@@ -33,6 +33,13 @@ public class Tag {
         return test.matches(TAG_VALIDATION_REGEX);
     }
 
+    /**
+     * Returns trimmed tag name, without '[' and ']'.
+     */
+    public String getTrimmedName() {
+        return this.tagName;
+    }
+
     @Override
     public boolean equals(Object other) {
         return other == this // short circuit if same object
