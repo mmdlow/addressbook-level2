@@ -107,6 +107,15 @@
   find Charlie Betsy
 
 ##########################################################
+# test find persons by tag command
+##########################################################
+
+  # find single tag
+  findtag school
+  # find multiple tags
+  findtag school friends
+
+##########################################################
 # test delete person command
 ##########################################################
 
